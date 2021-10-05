@@ -62,7 +62,21 @@ h1{
 }
 
 
+
 .option{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    color: #aaa;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.option span {
     display: flex;
     justify-content: center;
     align-items: center;
